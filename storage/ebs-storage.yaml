@@ -4,3 +4,5 @@ metadata:
   name: ebs-sc
 provisioner: ebs.csi.aws.com  # this is my driver 
 volumeBindingMode: WaitForFirstConsumer 
+
+#it will create new storage class 
